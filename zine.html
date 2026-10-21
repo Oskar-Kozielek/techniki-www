@@ -14,16 +14,28 @@
 
         <h3>Wydanie 01</h3>
     </header>
+    <nav aria-label="Spis treści">
+        <h2>Spis treści</h2>
+        <ul>
+            <li><a href="#sekunda">03 — Znajdź swoją sekundę</a></li>
+            <li><a href="#kokpit">04 — Domowy kokpit</a></li>
+            <li><a href="#bledy">05 — Pięć błędów kierowcy</a></li>
+            <li><a href="#tor">06 — Wybierz swój tor</a></li>
+            <li><a href="#karta">07 — Karta kierowcy</a></li>
+            <li><a href="#koniec">08 — Koniec okrążenia</a></li>
+        </ul>
+    </nav>
+
 
     <main>
         <article id="sekunda">
             <h2>Znajdź swoją sekundę</h2>
-            <p>Szybkie okrążenie nie zaczyna się od wciskania gazu do podłogi. Zacznij od powtarzalności. Hamuj w tym samym miejscu, płynnie skręcaj i staraj się dobrze wyjeżdżać z zakrętów. Zamiast walczyć o rekord w każdym okrążeniu, najpierw staraj się przejeżdżać tor bez żadnych błędów</p>
+            <p>Szybkie okrążenie nie zaczyna się od wciskania gazu do podłogi. Zacznij od powtarzalności. Hamuj w tym samym miejscu, płynnie skręcaj i staraj się dobrze wyjeżdżać z zakrętów. Zamiast walczyć o rekord w każdym okrążeniu, najpierw staraj się przejeżdżać tor bez żadnych błędów.</p>
         </article>
 
         <article id="kokpit">
             <h2>Domowy kokpit</h2>
-            <p>Nie potrzebujesz profesjonalnego stanowiska, żeby zacząć. Ważne by kierownica była stabilnie zamocowana, pedały nie ślizgały się podczas hamowania, a pozycja za kierowicą była wygodna</p>
+            <p>Nie potrzebujesz profesjonalnego stanowiska, żeby zacząć. Ważne by kierownica była stabilnie zamocowana, pedały nie ślizgały się podczas hamowania, a pozycja za kierowicą była wygodna.</p>
 
             <aside>
                 <h3>Zanim wyjedziesz</h3>
@@ -52,6 +64,7 @@
             <p>Nie próbuj jeździć wszędzie od razu. Wybierz jeden tor i naucz się go dobrze.</p>
 
             <table>
+                <caption>Popularne tory wyścigowe</caption>
                 <thead>
                     <tr>
                         <th scope="col">Tor</th>
@@ -88,7 +101,36 @@
                 </tbody>
             </table>
         </article>
-
+        <article id="karta">
+            <h2>Karta kierowcy — PADOK</h2>
+            <form>
+                <p>
+                    <label for="kierowca">Kierowca:</label>
+                    <input type="text" id="kierowca" name="kierowca">
+                </p>
+                <p>
+                    <label for="wybrany-tor">Tor:</label>
+                    <input type="text" id="wybrany-tor" name="tor">
+                </p>
+                <p>
+                    <label for="cel">Cel na dziś:</label>
+                    <input type="text" id="cel" name="cel">
+                </p>
+                <p>
+                    <label for="czas">Mój najlepszy czas:</label>
+                    <input type="text" id="czas" name="czas">
+                </p>
+                <button type="reset">Wyczyść kartę</button>
+            </form>
+        </article>
     </main>
+
+    <footer id="koniec">
+        <h2>Koniec okrążenia</h2>
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fthumbnails%2F058%2F043%2F439%2Fsmall_2x%2Fcheckered-flag-waving-at-a-racing-event-near-the-track-png.png&f=1&nofb=1&ipt=82a12c09d4a3fbbddbfe6c6b7137354d0b0333639935f60595efbbf908cdb4cd&ipo=images" alt="Flaga zakończenia wyścigu" width="500" height="300">
+        <p>PADOK to mały zin dla osób, które lubią wirtualne wyścigi, rozwijanie umiejętności i szukanie tych kilku dziesiątych sekundy.</p>
+        <p>Wydanie 01</p>
+        <p>Autor: Oskar Koziełek</p>
+    </footer>
 </body>
 </html>
